@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
-const PORT = 5000;
+const PORT = 3001;
 
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Glowlist Backend API berjalan! 🎇');
+    res.send('Selamat Datang di GlowList API 💄');
 });
 
 app.listen(PORT, () =>{
