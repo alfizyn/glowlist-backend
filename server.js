@@ -5,7 +5,7 @@ const PORT = 3001;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Selamat Datang di GlowList API 💄');
+    res.send('Selamat Datang di Glowlist API 💄');
 });
 
 app.listen(PORT, () =>{
